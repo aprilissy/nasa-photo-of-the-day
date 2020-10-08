@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import axios from 'axios'
 import DisplayAPOD from './components/DisplayAPOD/DisplayAPOD'
+import Nav from './components/Nav/Nav'
 
 function App() {
   const [nasaAPOD, setNasaAPOD] = useState({})

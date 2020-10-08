@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // import axios from 'axios';
-import Image from '../Image/Image'
+import Image from './Image/Image'
 // import './DisplayAPOD.css'; // For when I make a .css
 
 export default function DisplayAPOD(props) {
