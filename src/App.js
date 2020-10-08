@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Let's take a look at NASA's EPIC Astronomy Photo of the Day!</h1>
+      <Nav />
       <DisplayAPOD nasaAPOD={nasaAPOD} />
     </div>
   );

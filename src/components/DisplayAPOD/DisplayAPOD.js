@@ -1,14 +1,15 @@
-import React, { useState, useEffect } from 'react';
-// import axios from 'axios';
+import React from 'react';
 import Image from './Image/Image'
-// import './DisplayAPOD.css'; // For when I make a .css
+import InfoCard from './InfoCard/InfoCard'
+
 
 export default function DisplayAPOD(props) {
     const { nasaAPOD } = props;
 
     return (
         <div className='displayAPOD'>
-            <Image title={nasaAPOD.title} image={nasaAPOD.url} date={nasaAPOD.date} copyright={nasaAPOD.copyright} />
+            <Image image={nasaAPOD.url} />
+            <InfoCard title={nasaAPOD.title} date={nasaAPOD.date} copyright={nasaAPOD.copyright} text={nasaAPOD.explanation} />
         </div>
     )
 
