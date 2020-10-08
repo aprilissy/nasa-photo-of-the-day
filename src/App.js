@@ -25,7 +25,7 @@ function App() {
   console.log('sup I am data', nasaAPOD)
 
   return (
-    <div className="App">
+    <div>
       <Nav />
       <DisplayAPOD nasaAPOD={nasaAPOD} />
     </div>
