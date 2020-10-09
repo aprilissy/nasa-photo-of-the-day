@@ -6,6 +6,9 @@ const ImageDiv = styled.div`
     padding: 1%;
     box-shadow: 2px 2px 10px ${pr => pr.theme.jetBlack};
     border-radius: 10px;
+    @media (max-width: 800px) {
+        width:90%;
+    }
     img {
         max-width: 100%;
         vertical-align: middle;

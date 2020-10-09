@@ -8,22 +8,26 @@ const StyledNavDiv = styled.div`
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     nav {
         flex-basis: 100%;
+        display:flex;
+        justify-content:center;
     }
     h2 {
         color: ${pr => pr.theme.timberwolf};
         font-family: 'Sansita Swashed', cursive;
+        padding-right: 1%;
     }
     h1 {
         color: ${pr => pr.theme.timberwolf};
+        margin: 1%;
     }
     a {
         color: ${pr => pr.theme.maizeCrayola};
-        padding: 0 7%;
+        padding: 1% 7% 0;
         text-decoration: none;
         font-family: 'Secular One', sans-serif;
-        text-align: right;
     }
 `
 

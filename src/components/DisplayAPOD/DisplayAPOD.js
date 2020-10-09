@@ -8,6 +8,9 @@ const StyledDivAPOD = styled.div`
     padding: 2% 0;
     display: flex;
     justify-content: space-evenly;
+    @media (max-width: 800px) {
+        flex-wrap: wrap;
+    }
 `
 
 export default function DisplayAPOD(props) {

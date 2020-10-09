@@ -7,6 +7,9 @@ const InfoCardDiv = styled.div`
     box-shadow: 2px 2px 10px ${pr => pr.theme.jetBlack};
     border-radius: 10px;
     text-align: center;
+    @media (max-width: 800px) {
+        width:90%;
+    }
 `
 
 function InfoCard(props) {

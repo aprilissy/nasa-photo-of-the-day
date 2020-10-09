@@ -5,10 +5,4 @@ export default {
     maizeCrayola: '#F5CB5C',
     eerieBlack: '#242423',
     jetBlack: '#333533',
-
-
-
-    // breakpoints:{
-
-    // }
 }
